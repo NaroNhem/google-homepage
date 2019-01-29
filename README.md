@@ -1,0 +1,1 @@
+This repository contains my intro project on making the google homepage. My version would only be identical in looks and not function. The purpose of this project is the gain a better understanding of HTML and CSS.

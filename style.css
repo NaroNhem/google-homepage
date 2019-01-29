@@ -1,0 +1,30 @@
+div {
+    font-size: 75px;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+img.resize {
+    height: 150px;
+    width: 320px;
+    padding: 160px;
+}
+
+.search {
+    padding-right: 350px;
+    height: 25px;
+    display: block;
+    padding-top: 10px;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.16), 0 0 0 1px rgba(0, 0, 0, 0.08);
+    font: 16px arial;
+    border: none;
+    border-radius: 2px;
+
+}.search:hover {
+    box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2), 0 0 0 1px rgba(0,0,0,0.08);
+}
+
+form {
+    position: relative;
+    bottom: 170px;
+
+}
