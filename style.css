@@ -8,6 +8,23 @@ img.resize {
     width: 320px;
     padding: 160px;
 }
+.icon{
+    height:20px;
+    width:15px;
+    position: relative;
+    left: 250px;
+    bottom: 50px;
+    cursor: pointer;
+}
+.app {
+    height:17px;
+    width: 17px;
+    opacity: .70;
+}
+.app:hover {
+    opacity: 1.00;
+    cursor: pointer;
+}
 
 .search {
     padding-right: 350px;
@@ -18,6 +35,8 @@ img.resize {
     font: 16px arial;
     border: none;
     border-radius: 2px;
+    padding-left:10px;
+    padding-bottom: 10px;
 
 }.search:hover {
     box-shadow: 0 3px 8px 0 rgba(0,0,0,0.2), 0 0 0 1px rgba(0,0,0,0.08);
@@ -27,4 +46,52 @@ form {
     position: relative;
     bottom: 170px;
 
+}
+li {
+    list-style-type: none;
+    display: inline-block;
+    padding: 0 16px;
+    margin: 11px 4px;
+   
+}
+.click {
+    text-align: center;
+    bottom: 180px;
+    position: relative;
+    right:20px
+}
+.button {
+    font-weight: bold;
+    font-family: Arial, sans-serif;
+    border: none;
+    border-radius: 2px;
+    padding: 10px;
+    color: #757575;
+    background-color: #f2f2f2;
+    min-width: 54px;
+
+}
+.button:hover {
+   color: black;
+   border: 1px solid #c6c6c6;
+   box-shadow: 0 0 1px;
+}
+
+.nav{
+    font-family: sans-serif;
+    color: #757575;
+    font-size: 13px;
+    display: inline;
+}
+li a {
+    color: #757575;
+    text-decoration: none;
+}
+li a:hover {
+    text-decoration: underline;
+}
+.right {
+    left:1300px;
+    position: relative;
+    color: black;
 }
